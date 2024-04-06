@@ -2,9 +2,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         int k = 4;
-        int position = -1; // Initialize position to -1
-        
-        // Binary search logic directly within the main method
+        int position = -1;
         int left = 0;
         int right = arr.length - 1;
         
